@@ -305,7 +305,7 @@
 /* Box */
 
 	.box {
-		border-radius: 2px;
+		border-radius: 4px;
 		border: solid 1px;
 		margin-bottom: 2em;
 		padding: 1.5em;
@@ -324,7 +324,7 @@
 		}
 
 	.box {
-		border-color: #666666;
+		border-color: #ffffff;
 	}
 
 /* Button */
