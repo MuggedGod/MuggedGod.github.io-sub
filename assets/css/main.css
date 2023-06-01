@@ -305,10 +305,10 @@
 /* Box */
 
 	.box {
-		border-radius: 4px;
+		border-radius: 2px;
 		border: solid 1px;
-		margin-bottom: 2em;
-		padding: 1.5em;
+		margin-bottom: 1em;
+		padding: 0.5em;
 	}
 
 		.box > :last-child,
