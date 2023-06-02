@@ -48,6 +48,11 @@
 	}
 
 /* Box Model */
+	*, *:before, *:after {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
 
 /* Basic */
 
@@ -297,28 +302,6 @@
 
 /* Box */
 
-	.box {
-		border-radius: 0px;
-		border: solid 0px;
-		margin-bottom: 0;
-		padding: 0;
-	}
-
-		.box > :last-child,
-		.box > :last-child > :last-child,
-		.box > :last-child > :last-child > :last-child {
-			margin-bottom: 0;
-		}
-
-		.box.alt {
-			border: 0;
-			border-radius: 0;
-			padding: 0;
-		}
-
-	.box {
-		border-color: #666666;
-	}
 
 /* Button */
 
